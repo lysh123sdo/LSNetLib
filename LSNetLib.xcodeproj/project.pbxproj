@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131B02081E1C9EE4001446C5 /* LSNetLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 131B02071E1C9EE4001446C5 /* LSNetLib.m */; };
+		131B02091E1C9EE4001446C5 /* LSNetLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 131B02061E1C9EE4001446C5 /* LSNetLib.h */; };
+		131B02B51E1CEB98001446C5 /* LSApiEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 131B02AC1E1CEB98001446C5 /* LSApiEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		131B02B61E1CEB98001446C5 /* LSApiEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 131B02AD1E1CEB98001446C5 /* LSApiEngine.m */; };
+		131B02B71E1CEB98001446C5 /* LSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 131B02AE1E1CEB98001446C5 /* LSRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		131B02B81E1CEB98001446C5 /* LSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 131B02AF1E1CEB98001446C5 /* LSRequest.m */; };
+		13F7D0C41E1DD97B00C1D1E2 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 131B02941E1CD11C001446C5 /* libAFNetworking.a */; };
+		13F7D0C51E1DD97E00C1D1E2 /* libJTObjectMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 131B02951E1CD11C001446C5 /* libJTObjectMapping.a */; };
+		13F7D0D31E1E30FC00C1D1E2 /* LSRequestModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F7D0D11E1E30FC00C1D1E2 /* LSRequestModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13F7D0D41E1E30FC00C1D1E2 /* LSRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F7D0D21E1E30FC00C1D1E2 /* LSRequestModel.m */; };
+		13F7D0D71E1E31D300C1D1E2 /* LSRequestStatusModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F7D0D51E1E31D300C1D1E2 /* LSRequestStatusModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13F7D0D81E1E31D300C1D1E2 /* LSRequestStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F7D0D61E1E31D300C1D1E2 /* LSRequestStatusModel.m */; };
+		C615A1BC7A1772380BC5E373 /* libPods-LSNetLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB459CB41D16E1EBA6F4B698 /* libPods-LSNetLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		131B02011E1C9EE4001446C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				131B02091E1C9EE4001446C5 /* LSNetLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0729E570EE33E5CA783D09B0 /* Pods-LSNetLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSNetLib.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-LSNetLib/Pods-LSNetLib.debug.xcconfig"; sourceTree = "<group>"; };
+		131B02031E1C9EE4001446C5 /* libLSNetLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLSNetLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		131B02061E1C9EE4001446C5 /* LSNetLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSNetLib.h; sourceTree = "<group>"; };
+		131B02071E1C9EE4001446C5 /* LSNetLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSNetLib.m; sourceTree = "<group>"; };
+		131B02941E1CD11C001446C5 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "../../../../Library/Developer/Xcode/DerivedData/LSLib-dyxooqthjhrngkhefwpupuidlypg/Build/Products/Debug-iphonesimulator/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
+		131B02951E1CD11C001446C5 /* libJTObjectMapping.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJTObjectMapping.a; path = "../../../../Library/Developer/Xcode/DerivedData/LSLib-dyxooqthjhrngkhefwpupuidlypg/Build/Products/Debug-iphonesimulator/JTObjectMapping/libJTObjectMapping.a"; sourceTree = "<group>"; };
+		131B02AC1E1CEB98001446C5 /* LSApiEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSApiEngine.h; sourceTree = "<group>"; };
+		131B02AD1E1CEB98001446C5 /* LSApiEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSApiEngine.m; sourceTree = "<group>"; };
+		131B02AE1E1CEB98001446C5 /* LSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRequest.h; sourceTree = "<group>"; };
+		131B02AF1E1CEB98001446C5 /* LSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSRequest.m; sourceTree = "<group>"; };
+		13F7D0D11E1E30FC00C1D1E2 /* LSRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRequestModel.h; sourceTree = "<group>"; };
+		13F7D0D21E1E30FC00C1D1E2 /* LSRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSRequestModel.m; sourceTree = "<group>"; };
+		13F7D0D51E1E31D300C1D1E2 /* LSRequestStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRequestStatusModel.h; sourceTree = "<group>"; };
+		13F7D0D61E1E31D300C1D1E2 /* LSRequestStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSRequestStatusModel.m; sourceTree = "<group>"; };
+		6F8C3A2D5C72CE2D105B6EA9 /* Pods-LSNetLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSNetLib.release.xcconfig"; path = "../Pods/Target Support Files/Pods-LSNetLib/Pods-LSNetLib.release.xcconfig"; sourceTree = "<group>"; };
+		BB459CB41D16E1EBA6F4B698 /* libPods-LSNetLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSNetLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		131B02001E1C9EE4001446C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F7D0C51E1DD97E00C1D1E2 /* libJTObjectMapping.a in Frameworks */,
+				13F7D0C41E1DD97B00C1D1E2 /* libAFNetworking.a in Frameworks */,
+				C615A1BC7A1772380BC5E373 /* libPods-LSNetLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131B01FA1E1C9EE4001446C5 = {
+			isa = PBXGroup;
+			children = (
+				131B02051E1C9EE4001446C5 /* LSNetLib */,
+				131B02041E1C9EE4001446C5 /* Products */,
+				1B049344CFD0ACDEFB4C7B31 /* Pods */,
+				8E6F0485D608E4C82BA609F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		131B02041E1C9EE4001446C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				131B02031E1C9EE4001446C5 /* libLSNetLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		131B02051E1C9EE4001446C5 /* LSNetLib */ = {
+			isa = PBXGroup;
+			children = (
+				131B02A91E1CEB98001446C5 /* LSNetClient */,
+				131B02B21E1CEB98001446C5 /* LSNetClientMananger */,
+				131B02061E1C9EE4001446C5 /* LSNetLib.h */,
+				131B02071E1C9EE4001446C5 /* LSNetLib.m */,
+			);
+			path = LSNetLib;
+			sourceTree = "<group>";
+		};
+		131B02A91E1CEB98001446C5 /* LSNetClient */ = {
+			isa = PBXGroup;
+			children = (
+				131B02AC1E1CEB98001446C5 /* LSApiEngine.h */,
+				131B02AD1E1CEB98001446C5 /* LSApiEngine.m */,
+				131B02AE1E1CEB98001446C5 /* LSRequest.h */,
+				131B02AF1E1CEB98001446C5 /* LSRequest.m */,
+			);
+			path = LSNetClient;
+			sourceTree = "<group>";
+		};
+		131B02B21E1CEB98001446C5 /* LSNetClientMananger */ = {
+			isa = PBXGroup;
+			children = (
+				13F7D0D11E1E30FC00C1D1E2 /* LSRequestModel.h */,
+				13F7D0D21E1E30FC00C1D1E2 /* LSRequestModel.m */,
+				13F7D0D51E1E31D300C1D1E2 /* LSRequestStatusModel.h */,
+				13F7D0D61E1E31D300C1D1E2 /* LSRequestStatusModel.m */,
+			);
+			path = LSNetClientMananger;
+			sourceTree = "<group>";
+		};
+		1B049344CFD0ACDEFB4C7B31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0729E570EE33E5CA783D09B0 /* Pods-LSNetLib.debug.xcconfig */,
+				6F8C3A2D5C72CE2D105B6EA9 /* Pods-LSNetLib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E6F0485D608E4C82BA609F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				131B02941E1CD11C001446C5 /* libAFNetworking.a */,
+				131B02951E1CD11C001446C5 /* libJTObjectMapping.a */,
+				BB459CB41D16E1EBA6F4B698 /* libPods-LSNetLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		131B025E1E1CA244001446C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131B02B71E1CEB98001446C5 /* LSRequest.h in Headers */,
+				131B02B51E1CEB98001446C5 /* LSApiEngine.h in Headers */,
+				13F7D0D71E1E31D300C1D1E2 /* LSRequestStatusModel.h in Headers */,
+				13F7D0D31E1E30FC00C1D1E2 /* LSRequestModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		131B02021E1C9EE4001446C5 /* LSNetLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131B020C1E1C9EE4001446C5 /* Build configuration list for PBXNativeTarget "LSNetLib" */;
+			buildPhases = (
+				3B8BF7080027E9D1ECCEC67E /* [CP] Check Pods Manifest.lock */,
+				131B01FF1E1C9EE4001446C5 /* Sources */,
+				131B02001E1C9EE4001446C5 /* Frameworks */,
+				131B02011E1C9EE4001446C5 /* CopyFiles */,
+				131B025E1E1CA244001446C5 /* Headers */,
+				931565C9520857A2C2DFDC68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSNetLib;
+			productName = LSNetLib;
+			productReference = 131B02031E1C9EE4001446C5 /* libLSNetLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		131B01FB1E1C9EE4001446C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = LSNetLib;
+				TargetAttributes = {
+					131B02021E1C9EE4001446C5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 131B01FE1E1C9EE4001446C5 /* Build configuration list for PBXProject "LSNetLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 131B01FA1E1C9EE4001446C5;
+			productRefGroup = 131B02041E1C9EE4001446C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				131B02021E1C9EE4001446C5 /* LSNetLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B8BF7080027E9D1ECCEC67E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		931565C9520857A2C2DFDC68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSNetLib/Pods-LSNetLib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		131B01FF1E1C9EE4001446C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131B02B61E1CEB98001446C5 /* LSApiEngine.m in Sources */,
+				13F7D0D81E1E31D300C1D1E2 /* LSRequestStatusModel.m in Sources */,
+				131B02B81E1CEB98001446C5 /* LSRequest.m in Sources */,
+				131B02081E1C9EE4001446C5 /* LSNetLib.m in Sources */,
+				13F7D0D41E1E30FC00C1D1E2 /* LSRequestModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		131B020A1E1C9EE4001446C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		131B020B1E1C9EE4001446C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		131B020D1E1C9EE4001446C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0729E570EE33E5CA783D09B0 /* Pods-LSNetLib.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		131B020E1E1C9EE4001446C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8C3A2D5C72CE2D105B6EA9 /* Pods-LSNetLib.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		131B01FE1E1C9EE4001446C5 /* Build configuration list for PBXProject "LSNetLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131B020A1E1C9EE4001446C5 /* Debug */,
+				131B020B1E1C9EE4001446C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131B020C1E1C9EE4001446C5 /* Build configuration list for PBXNativeTarget "LSNetLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131B020D1E1C9EE4001446C5 /* Debug */,
+				131B020E1E1C9EE4001446C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 131B01FB1E1C9EE4001446C5 /* Project object */;
+}

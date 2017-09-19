@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "fadfa3df-50af-2743-92ba-f7c27eb15666",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "fadfa3df-50af-2743-92ba-f7c27eb15666" : {
+
+    },
+    "307d43bd-e565-b94f-b5b8-8e57bfe82d97++1350" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "fadfa3df-50af-2743-92ba-f7c27eb15666" : 9223372036854775807,
+    "307d43bd-e565-b94f-b5b8-8e57bfe82d97++1350" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CB172BBF-0F31-48FB-8DE2-68C7FFB5E84B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "fadfa3df-50af-2743-92ba-f7c27eb15666" : "Localsvn\/",
+    "307d43bd-e565-b94f-b5b8-8e57bfe82d97++1350" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LSNetLib",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "IOS-Framwork\/Lib\/trunk\/LSNetLib\/LSNetLib.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn-d.gtadata.com:8080\/svn\/%E8%BF%87%E7%A8%8B%E8%B5%84%E4%BA%A7",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "307d43bd-e565-b94f-b5b8-8e57bfe82d97++1350"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.1.34.48\/svn\/IOS-Framework",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "fadfa3df-50af-2743-92ba-f7c27eb15666"
+    }
+  ]
+}
