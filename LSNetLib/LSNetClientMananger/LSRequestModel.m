@@ -149,6 +149,11 @@
             
            serializerModel = [serializerModel statusModel:self data:response mapping:[self getMapping]];
             
+            if (self.success) {
+                
+                self.success(serializerModel);
+            }
+            
         }else {
         //不进行映射 解析之后原样返回
             if (self.success) {
@@ -164,13 +169,12 @@
         serializerModel.errorCode = LSError_Unknow;
         serializerModel.msg = @"数据格式无法解析";
         
+        if (self.success) {
+            
+            self.success(serializerModel);
+        }
     }
-    
-    if (self.success) {
-        
-      self.success(serializerModel);
-    }
-
+  
 }
 
 #pragma mark- 数据请求结果代理
